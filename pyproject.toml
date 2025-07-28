@@ -1,0 +1,22 @@
+[project]
+name = "multi-agentic-pdf-assistant"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "duckduckgo-search>=8.1.1",
+    "fastapi>=0.116.1",
+    "groq>=0.30.0",
+    "openai>=1.97.1",
+    "packaging>=25.0",
+    "pgvector>=0.4.1",
+    "phidata>=2.7.10",
+    "psycopg[binary]>=3.2.9",
+    "pypdf>=5.9.0",
+    "python-dotenv>=1.1.1",
+    "sentence-transformers>=5.0.0",
+    "sqlalchemy>=2.0.41",
+    "uvicorn>=0.35.0",
+    "yfinance>=0.2.65",
+]
